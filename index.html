@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DragNDrop</title>
+	<link rel="stylesheet" href="./reset.css">
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="wrapper__inner">
+			<div class="wrapper__inner-label label start">Начать</div>
+			<div class="wrapper__inner-label label progress">В процессе</div>
+			<div class="wrapper__inner-label label end">Готовы</div>
+		</div>
+		<div class="wrapper__inner">
+			<div class="wrapper__inner-placeholder placeholder">
+				<div class="wrapper__inner-placeholder_item item" draggable="true">Перетащи меня</div>
+			</div>
+			<div class="wrapper__inner-placeholder placeholder" draggable="true"></div>
+			<div class="wrapper__inner-placeholder placeholder" draggable="true"></div>
+		</div>
+	</div>
+
+	<script src="./main.js"></script>
+</body>
+</html>
